@@ -37,6 +37,7 @@ while running:
     pygame.draw.circle(screen, (0, 0, 255), (circle_x, circle_y), 30)
     pygame.draw.rect(screen, (200, 0, 0), (50, 50, 100, 100))
     pygame.draw.line(screen, (0, 128, 0), (50, 50), (300, 300), 5)
+  pygame.draw.arc(screen, (200, 0, 200), (105, 310, 30, 20), 50, 100, 5)
     # Must be the last two lines
     # of the game loop
     pygame.display.flip()
