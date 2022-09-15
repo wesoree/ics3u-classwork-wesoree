@@ -1,8 +1,4 @@
 # ics3u-classwork-wesoree
- Why did you take this course and what are you hoping to get out of it?
-
-
-What games and/or applications do you think are designed very well or have interesting features you 
-
-
-would like to learn how to implement in your own games/applications? List the apps and features.
+**READ CAREFULLY**
+These projects require Python and Pygame to be installed by using pip. This is completely open source.
+Fork at your own risk.
