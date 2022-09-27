@@ -3,7 +3,7 @@ mypoints = int(mypoints)
 
 if mypoints == 21:
     ans = input('you\'re stupid, what\'s 9+10?')
-    ans = int(ans)
+    ans = float(ans)
     if ans != 19:
         print("you're stupid")
     else:
