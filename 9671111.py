@@ -14,6 +14,6 @@ if age >= 5:
     elif height >= 100:
         print("you can ride")
     else:
-        print("you cannot ride")
+        print("you cannot ride bc u too short")
 else:
-    print("you cannot ride")
+    print("you cannot ride bc underage")
