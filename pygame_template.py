@@ -9,6 +9,8 @@ WIDTH = 640
 HEIGHT = 480
 SIZE = (WIDTH, HEIGHT)
 
+pygame.font.get_fonts()
+
 screen = pygame.display.set_mode(SIZE)
 clock = pygame.time.Clock()
 
