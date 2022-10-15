@@ -35,11 +35,12 @@ while running:
    
     pygame.draw.rect(screen, (0,0,255), (bluexbegin,blueybegin ,bluexend, blueyend))
     pygame.draw.rect(screen, (255,0,0), (redxbegin,redybegin ,redxend, redyend))
+
     
     pygame.display.flip()
 
     time.sleep(1)
-
+    
     clock.tick(30)
 
 pygame.quit()
