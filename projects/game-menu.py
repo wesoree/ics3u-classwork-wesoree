@@ -32,3 +32,5 @@ while True:
         input("press ENTER to continue")
     elif choice == 2: # game two
         print("You chose game TWO")
+        print('dead chat XD')
+        break
