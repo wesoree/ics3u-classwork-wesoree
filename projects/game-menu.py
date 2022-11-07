@@ -1,36 +1,22 @@
-print("Welcome to my game!")
+import random
+
+print("Welcome to Fix the Wiring!")
+print()
+print("In this game you will connect the wires to the ")
+
+# PLAY GAME THREE
 
 while True:
-    # MENU OPTIONS
-    print("Choose what game you want to play.")
-    print("[1] Game One")
-    print("[2] Game Two")
-
-    # GET CHOICE
-    choice = int(input("Choice: "))
-
-    # HANDLE CHOICE
-    if choice == 1: # GAME ONE
-        print("Welcome to the clapping mini game.")
-        print("Clap 5 times to win!")
-        claps = 0
-        while claps < 5:
-            print(f"You have clapped {claps} times.")
-
-            # menu options
-            print("[1] Clap")
-
-            # get choice
-            choice = int(input("Choice: "))
-
-            # handle choice
-            if choice == 1:
-                claps += 1
-        
-        print("YOU DID IT!!!!")
-        print()
-        input("press ENTER to continue")
-    elif choice == 2: # game two
-        print("You chose game TWO")
-        print('dead chat XD')
-        break
+    print("Playing game THREE")
+    wirelist=[]
+    for i in range(6):
+        r=random.randrange(1,4)
+        if r not in wirelist:
+            wirelist.append(r)
+    print("the faulty wires are")
+    print(wirelist)
+    print("the wire connectors are")
+    print("1, 2, 3, 4")
+    printed=1
+    input()
+    
