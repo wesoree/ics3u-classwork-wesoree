@@ -1,1 +1,4 @@
-print("hello world")
+list = []
+
+while True:
+    list.append(-113)
