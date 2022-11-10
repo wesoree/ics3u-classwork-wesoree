@@ -7,4 +7,6 @@ while True:
     if guess == x:
         print ("guess is correct")
         break
+    else:
+        print("please try again")
 
