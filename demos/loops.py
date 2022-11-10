@@ -7,6 +7,8 @@ while True:
     if guess == x:
         print ("guess is correct")
         break
+    elif guess<1 or guess>15:
+        print('invalid guess')
     else:
         print("please try again")
 
