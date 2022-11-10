@@ -1,4 +1,6 @@
+import random
+import numpy as np
 list = []
-
-while True:
-    list.append(-113)
+for num in range(1,1000):
+    list.append(random.randrange(10,99))
+numbers = np.array(list)
