@@ -1,3 +1,5 @@
-date = '2021-09-07'
+def main():
+    print ('hello world')
 
-print('year:', date[0:4], 'month:', date[6:7], 'day:', date[9:10])
+if __name__ == "__main__":
+    main()
