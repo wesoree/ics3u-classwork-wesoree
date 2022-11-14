@@ -1,5 +1,8 @@
-def main():
-    print ('hello world')
+import projects.webdriver_torso as webdriver_torso
 
-if __name__ == "__main__":
+def main():
+    webdriver_torso.main()
+
+if __name__ in "__main__":
     main()
+
