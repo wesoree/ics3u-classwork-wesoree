@@ -1,13 +1,19 @@
 import random
 x = random.randrange(1,15)
-guess=input("pick a number from 1 - 15")
-guess=int(guess)
-
+while True:
+    try:
+        guess=int(input("pick a number from 1 - 15"))
+        break
+    except ValueError:
+        print("invalid guess, please try again")
 if x==guess:
     print("you guessed the number")
 elif guess==21:
-    ans=input('you stupid, what\'s 9+10')
-    ans=int(ans)
+    try:
+        ans=int(input('you stupid, what\'s 9+10'))
+    except ValueError:
+        print("invalid")
+        ans = 19
     if ans==19:
         print("the number was ", +x)
     elif ans==21:
