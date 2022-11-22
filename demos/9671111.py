@@ -1,12 +1,9 @@
 while True:
     try:
         age=int(input('how old are you?'))
+        break
     except ValueError:
         print("invalid age, please try again")
-        age = 1000
-        break
-    if age != 0:
-        break
 while age != 1000:
     if age >= 5:
         try:
