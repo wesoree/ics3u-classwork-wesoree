@@ -6,8 +6,8 @@ from pygame.locals import K_ESCAPE, KEYDOWN, QUIT
 pygame.init()
 pygame.mixer.init()
 
-WIDTH = 640
-HEIGHT = 480
+WIDTH = 1920
+HEIGHT = 1080
 SIZE = (WIDTH, HEIGHT)
 
 pygame.font.get_fonts()
@@ -39,13 +39,13 @@ while running:
     # movement
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w]:
-        pass
+        circle_y += -10
     if keys[pygame.K_a]:
-        pass
+        circle_x += -10
     if keys[pygame.K_s]:
-        pass
+        circle_y += 10
     if keys[pygame.K_d]:
-        pass
+        circle_x += 10
     if keys[pygame.K_SPACE]:
         pass
 
@@ -55,7 +55,7 @@ while running:
     
 
     # DRAWING
-    screen.fill(BLACK)  # always the first drawing command
+    screen.fill(WHITE)  # always the first drawing command
 
     pygame.draw.circle(screen, (0, 0, 0), (circle_x, circle_y), 30)
 
