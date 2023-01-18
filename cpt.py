@@ -6,8 +6,8 @@ from pygame.locals import K_ESCAPE, KEYDOWN, QUIT
 pygame.init()
 pygame.mixer.init()
 
-WIDTH = 1920
-HEIGHT = 1080
+WIDTH = 600
+HEIGHT = 400
 SIZE = (WIDTH, HEIGHT)
 
 pygame.font.get_fonts()
